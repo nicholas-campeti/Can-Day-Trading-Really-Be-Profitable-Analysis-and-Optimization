@@ -1,4 +1,4 @@
-**Can Day Trading Really Be Profitable? -Analysis and Optimization**
+*Can Day Trading Really Be Profitable? -Analysis and Optimization*
 
 This project investigates the practical viability of intraday trading strategies, focusing on the quantitative framework established by Zarattini and Aziz. The study bridges the gap between academic skepticism and anecdotal success by implementing a high-fidelity simulation environment to test the Opening Range Breakout (ORB) strategy.
 
