@@ -33,4 +33,4 @@ Engine: Custom-built Python simulation engine.
 
 Architecture: SQL-based data management for large-scale backtesting.
 
-Execution Model: Advanced modeling of commission structures and dynamic slippage simulations to ensure realistic performance metrics (Sharpe Ratio, Max Drawdown).
+Execution Model: Advanced modeling of commission structures and dynamic slippage simulations to ensure realistic performance metrics.
