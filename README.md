@@ -1,36 +1,23 @@
 *Can Day Trading Really Be Profitable? -Analysis and Optimization*
 
-This project investigates the practical viability of intraday trading strategies, focusing on the quantitative framework established by Zarattini and Aziz. The study bridges the gap between academic skepticism and anecdotal success by implementing a high-fidelity simulation environment to test the Opening Range Breakout (ORB) strategy.
+Based on the paper by Carlo Zarattini and Andrew Aziz.
+The project is structured into three main phases:
 
-**Project Objectives**
+Phase 1: Replication
+The first phase focused on the replication of the paper’s original methodology, to which I integrated a dynamic slippage simulation to more accurately represent the strategy's performance in a live trading environment.
 
-Rigorous Validation: Full-scale replication of the original findings by Zarattini and Aziz, enriched with dynamic slippage simulations.
+Phase 2: Improvements
+In the second phase, I explored different solutions to improve the strategy presented in the paper. The enhancements included:
+- Implementing additional filters for entry signals.
+- Utilizing more efficient financial instruments.
 
-Robustness Enhancement: Addressing "real-world" market frictions (liquidity constraints, execution costs) that typically erode theoretical returns.
+Phase 3: Results
+The final phase consists of a presentation of the results obtained. The performance analysis was conducted by accounting for slippage simulations, commissions, and key market metrics. This phase also included the application of the strategy across different assets to evaluate its robustness.
 
-Cross-Asset Analysis: Evaluating strategy performance across a diverse range of financial instruments over a multi-year horizon.
+Technical Implementation & Data Sources
+- Data Sourcing: Market data for simulations were retrieved via the IBKR API and purchased from Databento to ensure high-fidelity backtesting.
+- Data Management: Utilized SQL for efficient data manipulation and large-scale dataset handling.
+- Simulation: Developed the simulation framework using Python to execute backtests and validate the strategy.
 
-**Methodology & Research Stages**
-
-The research is developed through three progressive stages:
-Baseline Replication: Establishing a statistical baseline of the original methodology while accounting for high-fidelity liquidity constraints.
-
-Strategy Optimization: Integration of advanced entry filters and selection of high-efficiency instruments.
-
-Empirical Backtesting: A comprehensive campaign across multiple assets to evaluate the strategy's robustness under various market regimes.
-
-**Dataset & Backtesting Horizon**
-
-Period: January 4, 2016 – October 31, 2025 (nearly a decade of market evolution).
-
-Resolution: 5-minute intraday candles.
-
-Data Sources: Market data gathered via IBKR API and premium datasets from Databento.
-
-**Tech Stack & Infrastructure**
-
-Engine: Custom-built Python simulation engine.
-
-Architecture: SQL-based data management for large-scale backtesting.
-
-Execution Model: Advanced modeling of commission structures and dynamic slippage simulations to ensure realistic performance metrics.
+Future Development
+This project represents a starting point for developing more complex initiatives, building upon the core skills and quantitative methodologies acquired throughout this study.
